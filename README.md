@@ -1,13 +1,19 @@
 # Code Refactor
 
 ## Description
-For this project, the goal was to refactor the given code for ease of use and accessibility. To do so required eliminating unnecessary code as well as removing as many non-semantic elements as possible. Both the html and css needed more structuring and were condensed for the end result. In order for a website to be both accessible and optimized, many changes were needed. The original code included dozens of div tags, lacked alt attributes on images, and had css that was filled extraneous code and did not follow the structure of the html. Additionally the code had no comments, making it harder to understand why the original programmer made certain decisions.
+For this project, the goal was to refactor the given code for ease of use and accessibility. To do so required eliminating unnecessary code as well as removing as many non-semantic elements as possible. Both the HTML and CSS needed more structuring and were condensed in the final product. In order for the website to be both accessible and optimized, many changes were needed. The original code included dozens of div tags, lacked alt attributes on images, and had css that was filled extraneous code and did not follow the structure of the html. Additionally the code had no comments, making it harder to understand why the original programmer made certain decisions. In order to provide more clarity, all div tags were changed to semantic html elements, comments were written throughout the HTML and CSS explaining the changes made, CSS was rearranged to follow the flow of HTML and tags with the same styling were condensed.
 
 ## Installation
 To launch this site, I created a repository on github and utilized github pages to host it. 
 
 ## Usage
 The goal of this site is to advertise and market Horiseon Web Services. Some of these services include: Search engine optimization, online reputation management, social media marketing, creating brand awareness, and assisting in cost management. 
+
+# Technology Used
+HTML, CSS, Github
+
+## Author
+Jonathan SanPedro - Bachelors of Information Technology Rutgers New Brunswick - Student at Berkeley Coding Bootcamp
 
 ## License
 

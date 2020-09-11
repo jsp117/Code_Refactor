@@ -1,3 +1,5 @@
+/* Rearranged all css to follow flow of html - removed excess code */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed header class to header and removed class designation from following css */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -131,6 +134,7 @@ footer {
     text-align: center;
 }
 
+/* changed to h4 to simplify h2 css */
 footer h4 {
     font-size: 20px;
 }
