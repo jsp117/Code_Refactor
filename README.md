@@ -1,7 +1,7 @@
 # Code Refactor
 
 ## Description
-For this project, the goal was to refactor the given code for ease of use. To do so required eliminating unnecessary code as well as removing as many non-semantic elements as possible. Both the html and css needed more structuring and were condensed for the end result. In order for a website to be both accessible and optimized, many changes were needed. The original code included dozens of div tags, lacked alt attributes on images, and had css that was filled extraneous code and did not follow the structure of the html. Additionally the code had no comments, making it harder to understand why the original programmer made certain decisions.
+For this project, the goal was to refactor the given code for ease of use and accessibility. To do so required eliminating unnecessary code as well as removing as many non-semantic elements as possible. Both the html and css needed more structuring and were condensed for the end result. In order for a website to be both accessible and optimized, many changes were needed. The original code included dozens of div tags, lacked alt attributes on images, and had css that was filled extraneous code and did not follow the structure of the html. Additionally the code had no comments, making it harder to understand why the original programmer made certain decisions.
 
 ## Installation
 To launch this site, I created a repository on github and utilized github pages to host it. 
