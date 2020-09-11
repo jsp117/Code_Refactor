@@ -9,11 +9,20 @@ To launch this site, I created a repository on github and utilized github pages 
 ## Usage
 The goal of this site is to advertise and market Horiseon Web Services. Some of these services include: Search engine optimization, online reputation management, social media marketing, creating brand awareness, and assisting in cost management. 
 
-# Technology Used
+## Built With
 HTML, CSS, Github
+
+## Deployed Link
+(https://jsp117.github.io/Code_Refactor/ )
 
 ## Author
 Jonathan SanPedro - Bachelors of Information Technology Rutgers New Brunswick - Student at Berkeley Coding Bootcamp
+(https://github.com/jsp117)
+(https://www.linkedin.com/in/jonathan-s-6ab32283/)
+
+## Images
+![Horiseon Sample](./assets/images/Horiseon.png)
+![Horiseon Sample](./assets/images/horiseon2.png)
 
 ## License
 
@@ -38,3 +47,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Acknowledgements
+Meyerweb Public Use CSS reset
+(https://meyerweb.com/eric/tools/css/reset/ )

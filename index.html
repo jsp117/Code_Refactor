@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- added css reset to allow use on all browsers -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon Web Services</title>
 </head>
@@ -10,7 +12,8 @@
 <body>
     <!-- replaced div class with header -->
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- changed class to id -->
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <!-- changed div to nav -->
         <nav>
             <ul>
@@ -29,12 +32,12 @@
         </nav>
     <!--added header closing tag-->
     </header>
-    <!-- changed div to figure and added title for accessibility for background image -->
-    <figure class="hero" title="Whiteboard meeting at table"></figure>
-    <!-- Changed div to main -->
-    <main class="content">
-        <!-- changed div to article -->
-        <article class="search-engine-optimization">
+    <!-- changed div to figure and added title for accessibility for background image, class to id -->
+    <figure id="hero" title="Whiteboard meeting at table"></figure>
+    <!-- Changed div to main, class to id-->
+    <main id="content">
+        <!-- changed div to article , changed class to id-->
+        <article id="search-engine-optimization">
             <!--added img alt "Search Engine Optimization" for accessibility-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="Journal with Search Engine Optimization written on it" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -43,18 +46,18 @@
             </p>
         <!--added article closing tag  -->
         </article>
-        <!-- changed div to article tag and removed id -->
-        <article class="online-reputation-management">
-            <!--added img alt "Online Reputation Management" for accessibility-->
-            <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management - Reputation Graph on laptop" class="float-right" />
+        <!-- changed div to article tag and removed class -->
+        <article id="online-reputation-management">
+            <!--added img alt "Online Reputation Management" for accessibility, changed class to id-->
+            <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management - Reputation Graph on laptop" id="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         <!-- added article closing tag -->
         </article>
-        <!-- changed div to article and removed id -->
-        <article class="social-media-marketing">
+        <!-- changed div to article and removed class -->
+        <article id="social-media-marketing">
             <!--added img alt "Social Media Marketing" for accessibility-->
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing - Social media icons on table" class="float-left" />
             <h2>Social Media Marketing</h2>
@@ -65,10 +68,10 @@
         </article>
     <!-- main closing tag -->
     </main>
-    <!-- changed div to aside -->
-    <aside class="benefits">
-        <!-- changed div to article -->
-        <article class="benefit-lead">
+    <!-- changed div to aside, class to id -->
+    <aside id="benefits">
+        <!-- changed div to article, class to id -->
+        <article id="benefit-lead">
             <h3>Lead Generation</h3>
             <!--added img alt "Lead Generation" for accessibility-->
             <img src="./assets/images/lead-generation.png"alt="Lead Generation" />
@@ -77,8 +80,8 @@
             </p>
         <!-- added article closing tag -->
         </article>
-        <!-- change div to article -->
-        <article class="benefit-brand">
+        <!-- changed div to article, class to id -->
+        <article id="benefit-brand">
             <h3>Brand Awareness</h3>
             <!--added img alt "Brand Awareness" for accessibility-->
             <img src="./assets/images/brand-awareness.png"alt="Brand Awareness" />
@@ -87,8 +90,8 @@
             </p>
         <!--article closing tag  -->
         </article>
-        <!-- change div to article -->
-        <article class="benefit-cost">
+        <!-- changed div to article, changed class to id -->
+        <article id="benefit-cost">
             <h3>Cost Management</h3>
             <!--added img alt "Cost Management" for accessibility-->
             <img src="./assets/images/cost-management.png"alt="Cost Management"/>
