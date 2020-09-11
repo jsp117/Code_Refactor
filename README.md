@@ -1,4 +1,4 @@
-# Code Refactor
+# Code Refactor - Horiseon Web Services
 
 ## Description
 For this project, the goal was to refactor the given code for ease of use and accessibility. To do so required eliminating unnecessary code as well as removing as many non-semantic elements as possible. Both the HTML and CSS needed more structuring and were condensed in the final product. In order for the website to be both accessible and optimized, many changes were needed. The original code included dozens of div tags, lacked alt attributes on images, and had css that was filled extraneous code and did not follow the structure of the html. Additionally the code had no comments, making it harder to understand why the original programmer made certain decisions. In order to provide more clarity, all div tags were changed to semantic html elements, comments were written throughout the HTML and CSS explaining the changes made, CSS was rearranged to follow the flow of HTML and tags with the same styling were condensed.
